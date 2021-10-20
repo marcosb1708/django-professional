@@ -61,6 +61,8 @@ AUTHENTICATION_BACKENDS = (
 )
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+DEFAULT_FROM_EMAIL = 'admin@djangobooks.com.br'
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
